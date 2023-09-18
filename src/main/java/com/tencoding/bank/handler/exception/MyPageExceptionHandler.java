@@ -1,11 +1,13 @@
 package com.tencoding.bank.handler.exception;
 
+import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.ModelAndView;
 
 @ControllerAdvice
+@Order(2)
 public class MyPageExceptionHandler {
 	
 	public void exception(Exception e) {

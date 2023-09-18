@@ -4,13 +4,14 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
+import com.tencoding.bank.dto.SignUpFormDto;
 import com.tencoding.bank.repository.model.User;
 
 // ibatis -> 2.4버전 이후로 mybatis로 이름 변경
 @Mapper
 public interface UserRepository {
 	
-	public int insert(User user);
+	public int insert(SignUpFormDto dto);
 	public int updateById(User user);
 	public int deleteById(Integer id);
 	public User findById(Integer id);

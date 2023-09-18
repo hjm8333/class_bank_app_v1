@@ -11,9 +11,9 @@ import com.tencoding.bank.handler.exception.CustomPageException;
 @RequestMapping("/account")
 public class AccountController {
 	@GetMapping("/list")
-	public void list() {
-//		return "account/list";
-		throw new CustomPageException("페이지가 업읍이다", HttpStatus.NOT_FOUND);
+	public String list() {
+		return "account/list";
+//		throw new CustomPageException("페이지가 업읍이다", HttpStatus.NOT_FOUND);
 	}
 	
 	@GetMapping("/save")
