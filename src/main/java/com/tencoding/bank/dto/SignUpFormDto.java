@@ -11,8 +11,8 @@ import lombok.ToString;
 @ToString
 public class SignUpFormDto {
 	
-	private String username;
-	private String password;
-	private String fullname;
+	private String username; 
+	private String password; 
+	private String fullname; 
 
 }

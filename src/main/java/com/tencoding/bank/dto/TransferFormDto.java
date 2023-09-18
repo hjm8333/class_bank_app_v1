@@ -11,9 +11,9 @@ import lombok.ToString;
 @ToString
 public class TransferFormDto {
 
-	private String number;
-	private String number2;
-	private String password;
-	private String amount;
+	private Long amount; 
+	private String wAccountNumber;
+	private String wAccountPassword; 
+	private String dAccountNumber;
 	
 }

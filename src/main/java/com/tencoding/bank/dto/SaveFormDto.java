@@ -13,6 +13,6 @@ public class SaveFormDto {
 	
 	private String number;
 	private String password;
-	private String amount;
+	private Long balance;
 	
 }

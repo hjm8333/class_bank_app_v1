@@ -11,8 +11,8 @@ import lombok.ToString;
 @ToString
 public class WithdrawFormDto {
 
-	private String number;
-	private String password;
-	private String amount;
+	private Long amount;
+	private String wAccountNumber;
+	private String wAccountPassword; 
 	
 }

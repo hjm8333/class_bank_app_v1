@@ -11,7 +11,7 @@ import lombok.ToString;
 @ToString
 public class DepositFormDto {
 	
-	private String number;
-	private String amount;
+	private Long amount;
+	private String dAccountNumber;  
 	
 }
